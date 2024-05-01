@@ -11,9 +11,9 @@ public class Main {
         GameProgress progress1 = new GameProgress(100,0,1, 1000);
         GameProgress progress2 = new GameProgress(70,2,5,500);
         GameProgress progress3 = new GameProgress( 50,5,10,150);
-        progress1.Save("F:\\Work\\JavaNetology\\Games\\savegames\\save1.dat", progress1);
-        progress2.Save("F:\\Work\\JavaNetology\\Games\\savegames\\save2.dat", progress2);
-        progress3.Save("F:\\Work\\JavaNetology\\Games\\savegames\\save3.dat", progress3);
+        progress1.save("F:\\Work\\JavaNetology\\Games\\savegames\\save1.dat", progress1);
+        progress2.save("F:\\Work\\JavaNetology\\Games\\savegames\\save2.dat", progress2);
+        progress3.save("F:\\Work\\JavaNetology\\Games\\savegames\\save3.dat", progress3);
 
         List<String> pathFiles = new ArrayList<>();
         pathFiles.add("F:\\Work\\JavaNetology\\Games\\savegames\\save1.dat");
