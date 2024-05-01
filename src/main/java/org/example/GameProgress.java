@@ -27,7 +27,7 @@ public class GameProgress implements Serializable {
                 '}';
     }
 
-    public void Save (String path, GameProgress gameProgress) throws IOException {
+    public void save (String path, GameProgress gameProgress) throws IOException {
         FileOutputStream filePath = new FileOutputStream (path);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(filePath);
 
